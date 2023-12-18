@@ -16,6 +16,9 @@ Portfolio Setup </b></Link>
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
       
       <li className="nav-item">
+          <NavLink className="nav-link  m-2 " aria-current="page" to="https://liaqatali-portfoliowebsite-reactapp.netlify.app/" >Portfolio </NavLink>
+        </li>
+      <li className="nav-item">
           <NavLink className="nav-link  m-2 " aria-current="page" to="/" >Projects </NavLink>
         </li>
       <li className="nav-item">
