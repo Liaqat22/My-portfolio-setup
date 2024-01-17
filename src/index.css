@@ -116,7 +116,7 @@ color: #61dbfb;
 }
  .form-control:focus{
   border-color: #61dbfb;
-  background-color: #283138;
+  background-color: white;
 
  }
 
