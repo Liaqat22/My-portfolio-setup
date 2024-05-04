@@ -50,7 +50,7 @@ function AllProjects() {
                 <div className='col-md-4 allproductsAdminCol' key={p._id}>
                   <div className='card' >
                     <div>
-                      <img src={`https://personal-portfolio-api-s.vercel.app/api/v1/project/project-photo/${p._id}`} className="card-img-top" alt="..." />
+                      <img src={`https://personal-portfolio-api-s.vercel.app/api/v1/project/project-photo/${p._id}`} loading = "lazy" className="card-img-top" alt="..." />
                       <div className="card-body">
                         <h5 className="card-title productTitle"> {p.name}</h5>
                         <p className="card-text paragraphText">{p.description.substring(0, 30)}</p>
